@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="utf-8" />
+    <title>Bota la pelota</title>   
+
+<style>
+
+body {
+background:
+linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+}
+	#ball {
+
+width: 100px;
+height: 100px;
+margin: 50px auto;
+position: relative;
+border-radius: 50%;
+background: orange;
+
+animation-name: bounce;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: cubic-bezier(0.3,0.4,0.5,1.6);
+}
+
+@keyframes bounce{
+	0% {
+            top: 0px;
+
+             }
+50% {
+	top: 349px;
+	width: 130px;
+	height: 70px;	
+}
+100% {
+top:0px;
+}
+}
+
+
+</style>
+</head>  
+  
+<body>
+
+
+<div id="ball"><id>
+
+
+</body>
+</html>
